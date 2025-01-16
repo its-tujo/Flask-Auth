@@ -5,8 +5,10 @@ Your App Name
 {% endblock %}
 
 {% block content %}
-// links to /auth/login and /auth/register
-
+<div class="flex justify-center space-x-4">
+    <a href="/auth/login" class="text-blue-500 hover:text-blue-700">Login</a>
+    <a href="/auth/register" class="text-blue-500 hover:text-blue-700">Register</a>
+</div>
 {% endblock %}
 
 {% block scripts %}
