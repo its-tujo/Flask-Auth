@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+
+{% block title %}
+Account Banned | YOUR APP NAME
+{% endblock %}
+
+{% block head %}
+<!-- Additional head content can be added here, like stylesheets or meta tags -->
+{% endblock %}
+
+{% block content %}
+<!-- Container that centers all the content -->
+<div class="flex items-center justify-center min-h-screen">
+    <!-- Style for the ban message box -->
+    <div class="bg-white shadow-lg rounded-xl p-8 w-full max-w-lg space-y-6 border border-gray-200">
+
+        <!-- Display the main ban message -->
+        <div class="text-center">
+            <h1 class="text-4xl font-extrabold text-red-600 mb-4">Your Account is Banned</h1>
+            <p class="text-xl text-gray-600 mb-4">Reason: <span class="font-semibold text-gray-800">{{ current_user.ban_reason or 'No reason provided' }}</span></p>
+        </div>
+
+        <!-- If the ban end time is set, display the countdown -->
+        {% if current_user.ban_end_time %}
+            <div class="text-center">
+                <p class="text-lg text-gray-700 mb-4">Your ban will expire at: <span id="local-time"></span></p>
+                <div class="bg-gray-100 p-8 rounded-lg mt-4 text-3xl font-semibold text-red-500 border-2 border-gray-300">
+                    <span id="countdown"></span> <!-- The countdown will be displayed here -->
+                </div>
+            </div>
+        {% else %}
+            <!-- If no end time is set, indicate that the ban is permanent -->
+            <div class="text-center">
+                <p class="text-lg text-gray-700">This ban is permanent.</p>
+            </div>
+        {% endif %}
+
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+{% if current_user.ban_end_time %}
+    // The ban end time is assumed to be in UTC from the server.
+    const banEndTimeUtc = new Date("{{ current_user.ban_end_time }}");
+
+    // Get the user's timezone offset in minutes (negative for UTC+1, for example)
+    var offset = new Date().getTimezoneOffset();
+    console.log("Timezone Offset: " + offset);
+
+    // Adjust the ban time to the user's timezone
+    const localTime = new Date(banEndTimeUtc.getTime() - (offset * 60000)); // Adjusting by the offset in minutes
+
+    // Display the user's local time
+    document.getElementById("local-time").innerText = localTime.toLocaleString();
+
+    // Countdown function
+    const countdownDate = localTime.getTime();  // Use the local time for the countdown
+
+    const updateCountdown = setInterval(() => {
+        // Get current local time
+        const now = new Date();
+        const distance = countdownDate - now.getTime();
+
+        if (distance < 0) {
+            clearInterval(updateCountdown);
+            document.getElementById("countdown").innerHTML = "Your ban has expired!";
+            location.reload()
+        } else {
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("countdown").innerHTML =
+                `${days}d ${hours}h ${minutes}m ${seconds}s`;
+        }
+    }, 1000);
+{% endif %}
+</script>
+{% endblock %}

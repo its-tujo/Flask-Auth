@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Specify the character encoding for the document -->
+    <meta charset="UTF-8">
+    <!-- Set the viewport for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title block for dynamic page titles -->
+    <title>{% block title %}YOUR APP NAME{% endblock %}</title>
+    
+    <!-- Include Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com/3.4.16?plugins=forms@0.5.9,typography@0.5.15,aspect-ratio@0.4.2,line-clamp@0.4.4,container-queries@0.1.1"></script>
+    
+    <!-- Additional content for the <head> section can be added by child templates -->
+    {% block head %}
+    {% endblock %}
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        {% block header %}
+        <!-- Placeholder for header content; child templates can override this block -->
+        {% endblock %}
+    </header>
+    
+    <!-- Main content section -->
+    <main>
+        {% block content %}
+        <!-- Placeholder for the main content of the page -->
+        {% endblock %}
+    </main>
+    
+    <!-- Footer section -->
+    <footer>
+        {% block footer %}
+        <!-- Placeholder for footer content -->
+        {% endblock %}
+    </footer>
+    
+    <!-- Additional scripts can be added by child templates -->
+    {% block scripts %}
+    {% endblock %}
+</body>
+</html>
