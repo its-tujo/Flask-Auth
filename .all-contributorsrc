@@ -1,5 +1,7 @@
 {
-  "files": ["README.md"],
+  "files": [
+    "README.md"
+  ],
   "imageSize": 100,
   "contributorsPerLine": 7,
   "contributorsSortAlphabetically": false,
@@ -13,6 +15,21 @@
     }
   },
   "skipCi": "true",
-  "contributors": []
+  "contributors": [
+    {
+      "login": "the13joker1",
+      "name": "THE_13joker1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158565390?v=4",
+      "profile": "https://the13joker1.github.io",
+      "contributions": [
+        "design",
+        "test",
+        "code"
+      ]
+    }
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "projectName": "Flask-Auth",
+  "projectOwner": "the13joker1"
 }
-
