@@ -4,11 +4,7 @@ author = 'THE_13joker1'
 release = '1.0'
 
 # -- Allgemeine Konfiguration -------------------------------------------------
-extensions = [
-    'sphinx.ext.autodoc',       # Automatische Dokumentation aus Docstrings
-    'sphinx.ext.viewcode',      # Quellcode-Links
-    'sphinx.ext.napoleon',      # Unterstützung für NumPy- und Google-Stil-Dokumentation
-]
+extensions = []
 
 templates_path = ['_templates']
 exclude_patterns = []
