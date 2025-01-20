@@ -7,3 +7,15 @@ Welcome to the official documentation for Flask-Auth, a Flask-based authenticati
    :local:
 
 Getting Started
+
+To start using Flask-Auth, clone the repository and install the required dependencies:
+
+1. Clone the repository:
+
+   .. code-block:: bash
+      git clone https://github.com/the13joker1/Flask-Auth.git
+
+2. Install dependencies:
+
+   .. code-block:: bash
+      pip install -r requirements.txt
