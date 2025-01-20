@@ -4,7 +4,7 @@ Welcome to the official documentation for **Flask-Auth**, a powerful authenticat
 
 ## Table of Contents
 .. contents:: Table of Contents
-   :local:
+ 
 
 ## Getting Started
 
