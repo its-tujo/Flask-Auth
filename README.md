@@ -51,4 +51,4 @@ This project is licensed under the BSD 3-Clause License
 
 <h2>💖Like my work?</h2>
 
-Support Me on YouTube star this repo and Follow me on GitHub<p>![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UC2M-hFOz2rrEd24ARg9Tutg) ![GitHub Follows](https://img.shields.io/github/followers/the13joker1)</p>
+Follow Me on YouTube and/or star this repo and/or  Follow me on GitHub<p>![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UC2M-hFOz2rrEd24ARg9Tutg) ![GitHub Follows](https://img.shields.io/github/followers/the13joker1)</p>
