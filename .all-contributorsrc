@@ -4,7 +4,7 @@
   ],
   "imageSize": 100,
   "contributorsPerLine": 7,
-  "contributorsSortAlphabetically": false,
+  "contributorsSortAlphabetically": true,
   "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat-square)](#contributors)",
   "contributorTemplate": "<a href=\"<%= contributor.profile %>\"><img src=\"<%= contributor.avatar_url %>\" width=\"<%= options.imageSize %>px;\" alt=\"\"/><br /><sub><b><%= contributor.name %></b></sub></a>",
   "types": {
@@ -16,36 +16,8 @@
   },
   "skipCi": "true",
   "contributors": [
-    {
-      "login": "the13joker1",
-      "name": "THE_13joker1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/158565390?v=4",
-      "profile": "https://the13joker1.github.io",
-      "contributions": [
-        "design",
-        "test",
-        "code"
-      ]
-    },
-    {
-      "login": "Jonas13-01",
-      "name": "Jonas",
-      "avatar_url": "https://avatars.githubusercontent.com/u/158565390?v=4",
-      "profile": "https://jonas13-01.github.io/",
-      "contributions": [
-        "code",
-        "content",
-        "doc",
-        "design",
-        "ideas",
-        "maintenance",
-        "projectManagement",
-        "research",
-        "review",
-        "security",
-        "question"
-      ]
-    }
+    
+    
   ],
   "commitType": "docs",
   "commitConvention": "angular",
