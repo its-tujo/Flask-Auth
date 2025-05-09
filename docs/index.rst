@@ -1,10 +1,10 @@
-Welcome to the Flask-Auth Documentation
-=======================================
+Flask-Auth Documentation
+========================
 
-Welcome to the official documentation for **Flask-Auth**, a powerful
-authentication and user management solution built on Flask. This guide
-provides the essential steps to get started, configure, and effectively
-use Flask-Auth in your projects.
+Welcome to the official documentation for **Flask-Auth** — a robust
+authentication and user management solution built with Flask. This guide
+covers the essential steps to get started, configure the library, and
+integrate Flask-Auth into your projects effectively.
 
 Table of Contents
 -----------------
@@ -14,26 +14,22 @@ Table of Contents
 Getting Started
 ---------------
 
-To begin using Flask-Auth, follow these steps to clone the repository
-and install the necessary dependencies:
+To get started with Flask-Auth, follow these steps to clone the repository
+and install the required dependencies:
 
-1. Clone the repository:
-~~~~~~~~~~~~~~~~~~~~~~~~
+1. Clone the repository
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: bash
 
    git clone https://github.com/Jonas13-01/Flask-Auth.git
 
-Or if you have a GitHub ssh key:
-.. code:: bash
+   # Or, using SSH:
+   git clone git@github.com:Jonas13-01/Flask-Auth.git
 
-   git clone git@github.com/Jonas13-01/Flask-Auth.git
-
-2. Install dependencies:
-~~~~~~~~~~~~~~~~~~~~~~~~
+2. Install dependencies
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: bash
 
    pip install -r requirements.txt
-
---------------
