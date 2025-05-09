@@ -11,6 +11,7 @@
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://the13joker1.github.io"><img src="https://avatars.githubusercontent.com/u/158565390?v=4" width="100px;" alt=""/><br /><sub><b>THE_13joker1</b></sub></a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://jonas13-01.github.io/"><img src="https://avatars.githubusercontent.com/u/158565390?v=4" width="100px;" alt=""/><br /><sub><b>Jonas</b></sub></a></td>
     </tr>
   </tbody>
 </table>
