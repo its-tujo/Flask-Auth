@@ -26,10 +26,28 @@
         "test",
         "code"
       ]
+    },
+    {
+      "login": "Jonas13-01",
+      "name": "Jonas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158565390?v=4",
+      "profile": "https://jonas13-01.github.io/",
+      "contributions": [
+        "code",
+        "content",
+        "doc",
+        "design",
+        "ideas",
+        "maintenance",
+        "projectManagement",
+        "research",
+        "review",
+        "security"
+      ]
     }
   ],
   "commitType": "docs",
   "commitConvention": "angular",
   "projectName": "Flask-Auth",
-  "projectOwner": "the13joker1"
+  "projectOwner": "Jonas13-01"
 }
