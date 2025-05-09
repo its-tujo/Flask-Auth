@@ -8,12 +8,16 @@
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
-<tr>
-  <td align="center"></td>
-</tr>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://jonas13-01.github.io/"><img src="https://avatars.githubusercontent.com/u/158565390?v=4" width="100px;" alt=""/><br /><sub><b>Jonas</b></sub></a></td>
+    </tr>
+  </tbody>
 </table>
+
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 
