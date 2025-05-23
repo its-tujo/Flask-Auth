@@ -17,10 +17,10 @@
   "skipCi": "true",
   "contributors": [
     {
-      "login": "Jonas13-01",
-      "name": "Jonas",
+      "login": "its-tujo",
+      "name": "TuJo",
       "avatar_url": "https://avatars.githubusercontent.com/u/158565390?v=4",
-      "profile": "https://jonas13-01.github.io/",
+      "profile": "https://its-tujo.github.io/",
       "contributions": [
         "code",
         "content",
@@ -37,5 +37,5 @@
   "commitType": "docs",
   "commitConvention": "angular",
   "projectName": "Flask-Auth",
-  "projectOwner": "Jonas13-01"
+  "projectOwner": "its-tujo"
 }
