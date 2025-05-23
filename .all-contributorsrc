@@ -16,23 +16,7 @@
   },
   "skipCi": "true",
   "contributors": [
-    {
-      "login": "its-tujo",
-      "name": "TuJo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/158565390?v=4",
-      "profile": "https://its-tujo.github.io/",
-      "contributions": [
-        "code",
-        "content",
-        "doc",
-        "design",
-        "ideas",
-        "maintenance",
-        "review",
-        "security",
-        "question"
-      ]
-    }
+    
   ],
   "commitType": "docs",
   "commitConvention": "angular",
