@@ -61,7 +61,7 @@ html_page = """
 {% block content %}
 <div class="bg-gray-100 h-screen flex flex-col items-center justify-center">
     <div class="bg-white shadow-md rounded-lg p-8 text-center">
-        <img src="https://i.ibb.co/Qc7SWJD/rrg-logo-nbg.png" alt="Logo" style="height:150px" class="mx-auto mb-4">
+        <img src="https://dummyimage.com/600x400/000/fff&text=Your+Logo+here" alt="Logo" style="height:150px" class="mx-auto mb-4">
         <h1 class="text-2xl font-bold text-red-600">Your IP address is blocked</h1>
         <p class="text-gray-700 mt-4">Please contact the administrator if you believe this is a mistake.</p>
     </div>
