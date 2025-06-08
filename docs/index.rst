@@ -22,10 +22,10 @@ and install the required dependencies:
 
 .. code:: bash
 
-   git clone https://github.com/Jonas13-01/Flask-Auth.git
+   git clone https://github.com/its-tujo/Flask-Auth.git
 
    # Or, using SSH:
-   git clone git@github.com:Jonas13-01/Flask-Auth.git
+   git clone git@github.com:its-tujo/Flask-Auth.git
 
 2. Install dependencies
 ~~~~~~~~~~~~~~~~~~~~~~~
