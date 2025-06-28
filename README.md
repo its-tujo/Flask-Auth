@@ -21,7 +21,7 @@
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 
-  
+  <h1>Important, you need WTForms==3.1.1 Flask-Admin==1.6.1 otherwise the admin category is broken!</h1>
 <h2>🧐 Features</h2>
 
 Here're some of the project's best features:
