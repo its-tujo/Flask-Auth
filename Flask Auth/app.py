@@ -92,7 +92,7 @@ def check_ban_and_ip_status():
 
         # If the user is still banned, show the ban page
         if current_user.is_ban_active():
-            return render_template("accounts/ban.html")
+            return render_template("account/ban.html")
 
 # Flask-Login user loader function
 @login_manager.user_loader
